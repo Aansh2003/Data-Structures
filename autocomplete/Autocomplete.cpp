@@ -15,7 +15,7 @@ struct Node *getNode(void)
 {
     struct Node *pNode = new Node;
 
-    pNode->endOfWord == false;
+    pNode->endOfWord = false;
     for(int i = 0; i < ALPHABETS; i++)
     {
         pNode->children[i] = NULL;
